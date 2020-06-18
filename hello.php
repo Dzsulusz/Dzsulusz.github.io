@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +6,11 @@
 </head>
 <body>
     This is my webpage.
+    <a href="index.html">home</a>
     <a href="about.html">About us</a>
-    <a href="hello.php">Hello</a>
+    <?php
+$a="hello world";
+print $a;
+?>
 </body>
 </html>
